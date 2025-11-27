@@ -5,8 +5,6 @@ const About = () => {
   return (
     <div>
       About
-      <br />
-      <Link to="/">Home</Link>
     </div>
   )
 }
