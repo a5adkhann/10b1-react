@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Test from '../components/Test'
+import Slideshow from '../components/Slideshow';
 
 const Home = () => {
 
@@ -8,7 +9,7 @@ const Home = () => {
 
   return (
     <div>
-      Home
+      <Slideshow/>
 
       <br />
 

@@ -24,7 +24,7 @@ const ProductsSection = () => {
 
     return (
         <>
-            <div className='products'>
+            <div className='products' data-aos="fade-in" data-aos-duration="4000">
 
                 {product.map((arthur) => (
                 <div className="product">

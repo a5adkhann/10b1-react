@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Osama",
+        "age" : 25,
+        "email" : "osama@gmail.com"
+    },
+    {
+        "name" : "Owais",
+        "age" : 20,
+        "email" : "owais@gmail.com"
+    },
+    {
+        "name" : "Arthur",
+        "age" : 18,
+        "email" : "arthur@gmail.com"
+    },
+    {
+        "name" : "Azaf",
+        "age" : 17,
+        "email" : "azaf@gmail.com"
+    }
+]

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,9 +7,15 @@ import Services from "./pages/Services";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Products from "./pages/Products";
+import Aos from "aos";
 
 
 function App(){
+
+  useEffect(() => {
+      Aos.init();
+  })
+
   return (
     <>
        <BrowserRouter>
